@@ -1,6 +1,6 @@
 ## write a program to reproduce deadlock (use 2 processes and 2 shared resources)
 //process 1 is holding resource 1 and wating for resource 2 and process 2 is holding resource 2 and waiting for resource 1
-
+```c
 #include<stdio.h>
 #include<pthread.h>
 #include<string.h>
@@ -50,3 +50,4 @@ int main()
         pthread_mutex_destroy(&resource2);
 
 }
+```
