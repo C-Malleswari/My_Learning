@@ -1,3 +1,9 @@
+// write a program in c using pipe ipc mechanism
+/*
+pipe() for IPC
+ parent - send a message 
+ child - read and print
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
