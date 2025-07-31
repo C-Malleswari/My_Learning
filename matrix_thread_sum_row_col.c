@@ -1,3 +1,7 @@
+/* create a 3X3 matrix with integers 2 threads  
+thread 1 : print row wise total 
+thread 2 : print col wise total
+*/
 #include <stdio.h>
 #include <pthread.h>
 
