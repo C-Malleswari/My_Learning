@@ -1,8 +1,7 @@
-// write a program in c using pipe ipc mechanism
 /*
-pipe() for IPC
- parent - send a message 
- child - read and print
+ write program to implement IPC mechanism (use message queue)
+eg 1: producer and consumer problem 
+eg 2: if parent send hi child  and child has to awake and has to print recieved message
 */
 #include<stdio.h>
 #include<stdlib.h>
