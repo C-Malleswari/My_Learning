@@ -1,7 +1,12 @@
 /*
  1.write a c program to find the most frequent occur letter in a word
+case:1
 input : viven
 output: v->2 times
+
+case:2
+input :cat
+output : none
 */
 
 #include <stdio.h>
