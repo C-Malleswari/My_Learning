@@ -1,3 +1,24 @@
+Problem Statement:
+
+Write a C program to read a 4x4 matrix of integers from the user and then print the matrix elements in spiral order, starting from the top-left corner and moving in a clockwise direction.
+Example Input:
+1  2  3  4
+5  6  7  8
+9 10 11 12
+13 14 15 16
+Expected Output:
+Original Matrix:
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+
+Spiral Order:
+1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
+	*/
+
+
+
 #include<stdio.h>
 #define SIZE 4
 
